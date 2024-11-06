@@ -14,7 +14,7 @@ int main() {
 }
 
 
-
+//-------------------------------------------------------------------
 // Check if a number is Even
 #include <stdio.h>
 int main() {
@@ -31,7 +31,7 @@ int main() {
 }
 
 
-
+//-------------------------------------------------------------------------
 // Check if a number is Even or Odd
 #include <stdio.h>
 int main() {
@@ -48,7 +48,7 @@ int main() {
 }
 
 
-
+//------------------------------------------------------------------------
 // Check if a character is upper case 
 #include <stdio.h>
 int main() {
@@ -65,7 +65,7 @@ int main() {
 }
 
 
-
+//---------------------------------------------------------------------------
 // Check if a number is Perfect Square
 #include <stdio.h>
 #include <math.h>
@@ -84,7 +84,7 @@ int main() {
 }
 
 
-
+//-----------------------------------------------------------------------
 //Check if a person is eligible to vote on age basis
 #include <stdio.h>
 int main() {
@@ -101,7 +101,7 @@ int main() {
 }
 
 
-
+//------------------------------------------------------------------
 // Check if a year is Leap year
 #include <stdio.h>
 int main() {
@@ -118,7 +118,7 @@ int main() {
 }
 
 
-
+//----------------------------------------------------------------------
 //Check if an alphabet is a Vowel
 #include <stdio.h>
 int main() {
@@ -137,6 +137,7 @@ int main() {
 
 
 
+//---------------------------------------------------------------------------
 // Check if a character is a digit or alphabet or a symbol
 #include <stdio.h>
 #include <ctype.h>
@@ -156,7 +157,7 @@ int main() {
 }
 
 
-
+//--------------------------------------------------------------------------
 // Check if a number is divisible by 5
 #include <stdio.h>
 int main() {
@@ -174,6 +175,7 @@ int main() {
 
 
 
+//------------------------------------------------------------------------------
 // Check if a number is 2 digit number
 #include <stdio.h>
 int main() {
@@ -191,6 +193,7 @@ int main() {
 
 
 
+//---------------------------------------------------------------------
 //Find smallest of 2 numbers
 #include <stdio.h>
 int main() {
@@ -208,6 +211,7 @@ int main() {
 
 
 
+//--------------------------------------------------------------------
  //Find biggest of 2 distinct numbers
 #include <stdio.h>
 int main() {
@@ -225,6 +229,7 @@ int main() {
 
 
 
+//--------------------------------------------------------------------------
  //Find smallest of 3 distinct numbers
 #include <stdio.h>
 int main() {
