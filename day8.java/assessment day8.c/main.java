@@ -1,5 +1,5 @@
 public class DoublyLinkedList {
-    // Node class for representing each element in the Doubly Linked List
+    
     private static class Node {
         int data;
         Node next;
@@ -14,7 +14,7 @@ public class DoublyLinkedList {
 
     private Node head;
 
-    // Method to add a node at the end of the doubly linked list
+    
     public void add(int data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -29,14 +29,14 @@ public class DoublyLinkedList {
         }
     }
 
-    // Method to remove a node with a specific value
+    
     public void remove(int data) {
         if (head == null) {
             System.out.println("List is empty");
             return;
         }
 
-        // If the node to remove is the head
+        
         if (head.data == data) {
             head = head.next;
             if (head != null) {
@@ -62,7 +62,7 @@ public class DoublyLinkedList {
         }
     }
 
-    // Method to display the doubly linked list forward
+    
     public void displayForward() {
         if (head == null) {
             System.out.println("List is empty");
@@ -76,7 +76,7 @@ public class DoublyLinkedList {
         System.out.println("null");
     }
 
-    // Method to display the doubly linked list backward
+    
     public void displayBackward() {
         if (head == null) {
             System.out.println("List is empty");
